@@ -1,0 +1,219 @@
+/* responsive css for tablets */
+
+/* iPad 1, 2, Mini and Air portrait and landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad 1, 2, Mini and Air portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad 1, 2, Mini and Air landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad 3, 4 and Pro 9.7" portrait and landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad 3, 4 and Pro 9.7" landscape */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad 3, 4 and Pro 9.7" portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad Pro 10.5" portrait and landscape */
+@media only screen and (min-device-width: 834px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad Pro 10.5" portrait */
+/* Declare the same value for min and max width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106 */
+@media only screen and (min-device-width: 834px) and (max-device-width: 834px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad Pro 10.5" landscape */
+/* Declare the same value for min and max width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106 */
+@media only screen and (min-device-width: 1112px) and (max-device-width: 1112px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad Pro 12.9" portrait and landscape */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad Pro 12.9" portrait */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106 */
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* iPad Pro 12.9" landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* Source: https://medium.com/connect-the-dots/css-media-queries-for-ipad-pro-8cad10e17106 */
+@media only screen and (min-device-width: 1366px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Galaxy Tab 2 portrait and landscape */
+@media(min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Galaxy Tab 2 landscape */
+@media(min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Galaxy Tab 2 portrait */
+@media(min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Galaxy Tab S portrait and landscape */
+@media(min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Galaxy Tab S landscape */
+@media(min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Galaxy Tab S portrait */
+@media(min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Nexus 7 portrait and landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Nexus 7 landscape */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Nexus 7 portrait */
+@media screen and (device-width: 601px) and (device-height: 906px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Nexus 9 portrait and landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Nexus 9 landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Nexus 9 portrait and landscape */
+@media screen and (device-width: 1536px) and (device-height: 2048px) and (-webkit-min-device-pixel-ratio: 1.331) and (-webkit-max-device-pixel-ratio: 1.332) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Kindle Fire HD 7" portrait and landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Kindle Fire HD 7" landscape */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Kindle Fire HD 7" portrait */
+@media only screen and (min-device-width: 800px) and (max-device-width: 1280px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Kindle Fire HD 8.9" portrait and landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Kindle Fire HD 8.9" landscape */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: landscape) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
+
+/* Kindle Fire HD 8.9" portrait */
+@media only screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1.5) and (orientation: portrait) {
+  body {
+    font-size: $body-font-size-md;
+  }
+}
