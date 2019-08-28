@@ -1,0 +1,43 @@
+@import "partials/colors";
+@import "partials/page";
+
+.xxx-page-navigation-panel {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+}
+
+.xxx-question-container {
+  background-color: $bg-color-container;
+}
+
+.xxx-questions-container {
+  margin: .5rem;
+}
+
+.xxx-results-currrent-page {
+  margin-right: 1rem;
+}
+
+.xxx-results-currrent-page-caption {
+  margin-right: 1rem;
+}
+
+.xxx-results-footer {
+  align-items: center;
+  background-color: $bg-color-container;
+  display: flex;
+  flex-direction: row;
+  height: 2rem;
+  justify-content: flex-end;
+}
+
+.xxx-results-paging {
+  margin-right: 2rem;
+  width: 8rem;
+}
+
+.xxx-spinner-container {
+  margin-top: 2rem;
+  width: 100%;
+}

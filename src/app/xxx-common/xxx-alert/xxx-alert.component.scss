@@ -1,0 +1,26 @@
+:host {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  min-height: 3rem;
+}
+
+:host div {
+  align-items: center;
+  display: flex;
+}
+
+.xxx-alert-action-panel {
+  cursor: pointer;
+}
+
+.xxx-alert-icon-panel {
+  cursor: default;
+  margin-right: 1em;
+}
+
+.xxx-alert-message-panel {
+  cursor: default;
+}

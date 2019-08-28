@@ -1,0 +1,29 @@
+/* responsive css for laptop and desktop pcs */
+
+/* Non-Retina screens */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 1) {
+  body {
+    font-size: $body-font-size-lg;
+  }
+}
+
+/* Retina screens */
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) and (-webkit-min-device-pixel-ratio: 2) and (min-resolution: 192dpi) {
+  body {
+    font-size: $body-font-size-lg;
+  }
+}
+
+/* desktop and laptop */
+@media only screen and (min-width: 1224px) {
+  body {
+    font-size: $body-font-size-lg;
+  }
+}
+
+/* Large screens */
+@media only screen and (min-width: 1824px) {
+  body {
+    font-size: $body-font-size-xl;
+  }
+}

@@ -1,0 +1,27 @@
+@import "partials/colors";
+
+:host mat-toolbar {
+  align-items: center;
+  background-color: $bg-color-header;
+  display: flex;
+  flex-direction: row;
+  padding-top: .4rem;
+}
+
+.xxx-header-title {
+  font-size: 1.2rem;
+}
+
+.xxx-header-logo {
+  padding: .4rem;
+  max-width: 4rem;
+  min-width: 3rem;
+  width: 13vw;
+}
+
+.xxx-search-box-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 100%;
+}

@@ -1,0 +1,60 @@
+@import "partials/colors";
+@import "partials/page";
+
+.xxx-answer-caption {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.xxx-answer-container {
+  margin: .5rem;
+  overflow: scroll;
+  padding: .5rem;
+}
+
+.xxx-answer-accepted {
+  background-color: $bg-color-accepted;
+}
+
+.xxx-answer-info {
+  font-size: .8rem;
+}
+
+.xxx-answer-not-accepted {
+  background-color: $bg-color-container;
+}
+
+.xxx-answer-question-container {
+  background-color: $bg-color-container;
+  margin: .5rem;
+  padding: .5rem;
+}
+
+.xxx-answer-caption {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.xxx-back-to-questions {
+  font-size: .8rem;
+  margin: .5rem;
+}
+
+.xxx-question-caption {
+  font-size: .8rem;
+  font-style: italic;
+}
+
+.xxx-question-info {
+  font-size: .8rem;
+}
+
+.xxx-question-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.xxx-spinner-container {
+  margin-top: 2rem;
+  width: 100%;
+}

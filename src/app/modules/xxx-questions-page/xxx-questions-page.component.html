@@ -1,0 +1,33 @@
+<div class="xxx-page">
+  <div class="xxx-page-title">Questions</div>
+  <div class="xxx-main-card">
+    <div *ngIf="isBusy" class="xxx-spinner-container">
+      <mat-spinner></mat-spinner>
+    </div>
+    <div *ngIf="!isBusy&&!isError&&isResult" class="xxx-questions-container">
+      <div *ngFor="let question of questions" class="xxx-question-container">
+        <a (click)="questionOnClick(question.question_id)" [routerLink]="">{{decodeHtmlEntities(question.title)}}</a>
+      </div>
+      <div class="xxx-results-footer">
+        <div class="xxx-page-navigation-panel">
+          <span class="xxx-results-currrent-page-caption">Page</span>
+          <span class="xxx-results-currrent-page">{{pageNumber}}</span>
+          <span class="xxx-results-paging">
+    <button (click)="goToFirstPage()" [disabled]="pageNumber===1" class="xxx-results-first-page" mat-icon-button
+            title="Go To First Page">
+      <mat-icon>first_page</mat-icon>
+    </button>
+      <button (click)="goToPreviousPage()" [disabled]="pageNumber===1" class="xxx-results-previous-page"
+              mat-icon-button title="Go To Previous Page">
+    <mat-icon>chevron_left</mat-icon>
+      </button>
+      <button (click)="goToNextPage()" [disabled]="!isMorePages" class="xxx-results-next-page" mat-icon-button
+              title="Go To Next Page">
+    <mat-icon>chevron_right</mat-icon>
+      </button>
+      </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

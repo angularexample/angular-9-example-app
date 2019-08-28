@@ -1,0 +1,26 @@
+/* master scss file, global styles and imports of other app scope scss files */
+
+/* global font */
+body {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* angular material */
+@import "vendor/angular-material";
+
+/* angular material menu and icon setup */
+@import "vendor/mat-icon";
+
+/* responsive css */
+@import "partials/media-variables";
+@import "partials/media-phones";
+@import "partials/media-tablets";
+@import "partials/media-pcs";
+
+/* global colors */
+@import "partials/colors";
+
+/* for xxx-alert */
+@import "partials/alert";

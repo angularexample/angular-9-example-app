@@ -1,0 +1,11 @@
+<div [ngClass]="alertType" class="xxx-alert-icon-panel">
+  <mat-icon *ngIf="alertType==='error'">error</mat-icon>
+  <mat-icon *ngIf="alertType==='info'">info</mat-icon>
+  <mat-icon *ngIf="alertType==='warn'">warning</mat-icon>
+</div>
+<div class="xxx-alert-message-panel">{{alertMessage}}</div>
+<div class="xxx-alert-action-panel">
+  <button (click)="dismiss()" mat-icon-button title="Close alert">
+    <mat-icon>close</mat-icon>
+  </button>
+</div>
