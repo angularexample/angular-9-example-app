@@ -19,13 +19,5 @@ import {XxxAlertComponent} from './xxx-alert.component';
   ]
 })
 
-/**
- * NOTE: After changing all services to use providedIn,
- * you must import this module at the app module.
- * This is because the app needs
- * BrowserAnimationsModule,
- * MatSnackBarModule
- * and the entryComponents
- */
 export class XxxAlertModule {
 }
