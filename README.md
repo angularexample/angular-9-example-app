@@ -135,8 +135,6 @@ Here is the same app written in React and Polymer:
       * [Large Scale Projects Lead To The Better Way](#large-scale-projects-lead-to-the-better-way)
       * [Example Where To Import FormsModule](#example-where-to-import-formsmodule)
       * [Its Ok To Import Things Twice](#its-ok-to-import-things-twice)
-      * [Ng Generate Adds Component To App Module](#ng-generate-adds-component-to-app-module)
-        * [Remove Generated Component From App Module](#remove-generated-component-from-app-module)
 
 ## About The Author
 
@@ -1572,17 +1570,5 @@ This means it will be just as efficient to the compiler to use this strategy of 
 
 In other words, there is no advantage of importing things once at the app.module level.
 In fact, this becomes a disadvantage when application restructuring is required.
-
-##### Ng Generate Adds Component To App Module
-
-If you use `ng generate component my-component`,
-it will automatically add the import and declaration to the *app module* for your new component.
-
-But we should generally not import and declare components at the *app module level*.
-Instead, we should create a module for each component, and import the component, declare and then export it.
- 
-###### Remove Generated Component From App Module
-
-If you use `ng generate component`, then you will need to remove all its references from the app module.
 
 ---
